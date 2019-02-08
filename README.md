@@ -22,6 +22,11 @@ Although it is removed from the final code, I had used Twiddle a little bit to t
 
 In the end, the final values were determined by manual tuning. The ratio of the coefficients to each other that I chose (0.2, 0.004, 3.0) for determining  steer value and  (0.3, 0.0, 0.02) for determining throttle seemed to work well, and I also tried lowering & raising them in conjunction with each other as well as tuning each individually. I typically found that I was creating too high of steering angles (causing crashes if the speed had gotten too high on a straight) by raising them in conjunction with each other, while lowering all of them together meant the car struggled on the larger curves, sometimes not turning enough and shooting off the track. Also i was controlling the car throttle based on the cars speed , if the car speed exceeds speed limit (50mph) then reduce the throttle value to 0.2. Which helped the car in maintaining constant speed.
 
+![screenshot](PID1.png)
+
+![screenshot](PID2.png)
+
+![screenshot](PID3.png)
 ---
 ## Dependencies
 
